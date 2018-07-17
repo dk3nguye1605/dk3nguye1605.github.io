@@ -1,0 +1,98 @@
+/*Link format*/
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: orange; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+
+/*Header*/
+header{
+    border: black solid 3px;
+	border-width: 0px 0px 3px 0px;
+    background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 99%);
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 99%);
+    padding: .25em 0 .5em .5em;
+    margin: 0;
+}
+header img { 
+	float: left;
+    margin-right: 1em;
+    height: 10%;
+    width: 10%;
+}
+
+header h2 {
+	font-size: 230%;
+    margin: 0;
+	
+}
+header h3 {
+	font-size: 125%;
+    margin: 0;	
+}
+
+/*html style*/
+html{
+    background-image: url("../images/bats.gif");
+	background-repeat: repeat;
+}
+
+/*Main*/
+main h1 { 
+	font-size: 140%;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+}
+main h3 {
+	font-size: 110%;
+}
+ul {
+	line-height: 1.5;
+}
+
+/*body*/
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    border: black solid 10px;
+    box-shadow: 0px 0px 50px black;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;	
+}
+
+/*footer*/
+footer{
+    font-size: 0.8em;
+	text-align: center;
+	border: black solid 3px;
+	border-width: 3px 0px 0px 0px;
+	padding: .75em;
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 99%);
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 25%, black 99%);
+    clear: both;
+}
+
+/*aside*/
+aside{
+    width: 160px;
+    float: left;
+    margin-top: 1.5em;
+}
+
+
+/*section*/
+section{
+    width: 640px;
+    float: right;
+    margin-top: 0.5em;
+}
